@@ -1,0 +1,39 @@
+Program Luciano ;
+
+    VAR
+ 
+	FUNCIONARIOLL: STRING;
+  HORASLL: REAL;
+  SALARIOHORALL: REAL;
+  FILHOSLL: REAL;
+  SALARIOBRUTOLL: REAL;
+  DESCONTOLL: REAL;
+  IRRFLL: REAL;
+  FAMILIALL: REAL;
+  SALARIOLIQUIDOLL: REAL;
+  
+  Begin
+  
+  WRITELN ('ATIVIDADE 1 DE  PROGRAMAÇÃO 2');
+  WRITELN ('-----------------------------------------------------');
+	WRITE ('FUNCIONÁRIO:.................:');
+	READLN (FUNCIONARIOLL);
+	WRITE ('HORAS TRABALHADAS:...........:');   
+	READLN (HORASLL);
+	WRITE ('SALARIO HORA :...............:');
+	READLN (SALARIOHORALL);
+	WRITE ('FILHOS.......................:');
+	READLN (FILHOSLL);
+	WRITELN ('-----------------------------------------------------');
+	
+	IF (SALARIOBRUTOLL <=1174.86) THEN DESCONTOLL:=SALARIOBRUTOLL*0.08 
+																ELSE 
+	IF (SALARIOBRUTOLL>1174.86 AND <= 1958.10) THEN DESCONTOLL:=SALARIOBRUTOLL*0,09
+																ELSE
+	IF (SALARIOBRUTOLL>=1958.11 AND =3916.20) THEN DESCONTOLL:=SALARIOBRUTOLL*0.11
+																ELSE
+  IF (SALARIOBRUTOLL>3916.20) THEN DESCONTOLL:=430.78
+		
+	
+  
+End.
