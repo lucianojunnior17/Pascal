@@ -11,18 +11,18 @@ SIT: STRING;
 
  Begin
  clrscr;
- writeln ('SISTEMA DE MÉDIA ');
+ writeln ('SISTEMA DE MÃ‰DIA ');
  WRITELN ('NOME DO ALUNO') ;
  READLN (NOMEDOALUNO);
  WRITELN ('NOTA DA PROVA1');
  READLN (P1);
  WRITELN ('NOTA DA PROVA 2');
  READLN (P2);
- WRITELN (' NOTA DE PRÉVIAS ');
+ WRITELN (' NOTA DE PRÃ‰VIAS ');
  READLN (PPS);
  WRITELN ('ATIVIDADES');
  READ (ATIVIDADES);
- WRITELN ('NÚMERO DE FALTAS');
+ WRITELN ('NÃšMERO DE FALTAS');
  READ (FALTA);
  WRITELN ('TECLE ENTER PARA GERAAR O BOLETIM');
  READLN;
@@ -36,11 +36,12 @@ SIT: STRING;
   WRITELN (' BOLETIN DE NOTAS ');
   WRITELN ('----------------');
   WRITELN ('NOME DO ALUNO...', NOMEDOALUNO );
-  WRITELN ('MÉDIA...........', MEDIAFINAL :0:2);
-  WRITELN ('SITUAÇÃO........', SIT );   
+  WRITELN ('MÃ‰DIA...........', MEDIAFINAL :0:2);
+  WRITELN ('SITUAÃ‡ÃƒO........', SIT );   
   WRITELN ('----------------');
   WRITELN (' FIM DO PROGAMA ' );
   WRITELN ('----------------');
+  READLN();
                                    
  
   
